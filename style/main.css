@@ -6,14 +6,14 @@ body {
 
 main {
   width: 50%;
-  height: 500 px;
+  height: 500px;
   background-color: white;
   float: left;
 }
 
 aside {
   width: 50%;
-  height: 500 px;
+  height: 500px;
   background-color: white;
   float: right;
 }

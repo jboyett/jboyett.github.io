@@ -20,6 +20,14 @@ p {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+ul {
+    padding-left: 10px;
+}
+
+li {
+    padding-left: 10px;  /* space between the bullet and text */
+}
 img {
   position: static;
 }

@@ -46,11 +46,11 @@ img {
 }
 /* class to give the image border */
 .blue_border img {
-    border: 2px solid #B5D3E7;
-    margin: 0;
-    padding: 0;
-    border-radius: 50px;
-    position: relative;
-    right: 10px;
-    top: 10px;
+    border: 2px solid #B5D3E7; /* Solid light blue border */
+    margin: 0; /* Removes external spacing around the image */
+    padding: 0; /* Removes internal spacing around the image */
+    border-radius: 50px; /* Gives the image rounded corners */
+    position: relative; /* Lets image be moved by top and right offsets */
+    right: 10px; /* Shifts image 10 pixels left from position */
+    top: 10px; /* Shifts image 10 pixels downward from position */
 }

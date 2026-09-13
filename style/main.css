@@ -50,7 +50,7 @@ img {
     margin: 0; /* Removes external spacing around the image */
     padding: 0; /* Removes internal spacing around the image */
     border-radius: 50px; /* Gives the image rounded corners */
-    position: relative; /* Lets image be moved by top and right offsets */
+    position: center; /* Lets image be moved by top and right offsets */
     right: 10px; /* Shifts image 10 pixels left from position */
     top: 10px; /* Shifts image 10 pixels downward from position */
 }

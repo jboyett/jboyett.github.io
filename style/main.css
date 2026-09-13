@@ -5,36 +5,36 @@ Date Tested: 9-8-26
 Southern Illinois University
 */
 body {
-    width: 725px;
-    background-color: #FFCCCC;   /* this a gray color */
-    margin: 0px auto;
+    width: 725px; /* Fixed width of the page */
+    background-color: #FFCCCC;   /* This a light red color */
+    margin: 0px auto; /* Centers the enitre page */
 }
 
 main {
-    width: 50%;
-    height: 500px;
-    background-color: #CCFFCC;
-    float: left;
+    width: 50%; /* Fixed width of the main column */
+    height: 500px; /* Fixed height of the main column */
+    background-color: #CCFFCC; /* This is a light green color */
+    float: left; /* Fixes main column to the left */
 }
 
 aside {
-    width: 50%;
-    height: 500px;
-    background-color: #CCE5FF;
-    float: right;
+    width: 50%; /* Fixed width of the aside 2nd column */
+    height: 500px; /* Fixed height of the aside 2nd column */
+    background-color: #CCE5FF; /* This is a light blue color */
+    float: right; /* Fixes aside 2nd column to the left */
 }
 
 h1, h2 {
-    padding: 10px;
+    padding: 10px; /* Space between the headers and the border */
 }
 
 p {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 5px; /* space between the paragraph and text (left) */
+    padding-right: 5px; /* space between the paragraph and text (right) */
 }
 
-ul, ol {
-    padding-left: 10px;
+ul {
+    padding-left: 10px; /* space between the bullet and text */
 }
 
 li {
@@ -42,14 +42,14 @@ li {
 }
 
 img {
-    position: static;
+    position: static; /* Default position of image */
 }
+/* class to give the image border */
 .blue_border img {
-    border: 2px solid #B5D3E7;
-    margin: 0;
-    padding: 0;
-    border-radius: 50px;
-    position: center;
-    right: 10px;
-    top: 10px;
+    border: 2px solid #RRGGBB; /* Solid blue border */
+    margin: 0; /* Removes external spacing around the image */
+    padding: 0; /* Removes internal spacing around the image */
+    border-radius: 50px; /* Gives the image rounded corners */
+    right: 10px; /* Shifts image 10 pixels left from position */
+    top: 10px; /* Shifts image 10 pixels downward from position */
 }

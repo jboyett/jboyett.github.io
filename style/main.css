@@ -29,16 +29,16 @@ h1, h2 {
 }
 
 p {
-    padding-left: 5px; /* space between the paragraph and text (left) */
-    padding-right: 5px; /* space between the paragraph and text (right) */
+    padding-left: 5px; /* Space between the paragraph and text (left) */
+    padding-right: 5px; /* Space between the paragraph and text (right) */
 }
 
 ul {
-    padding-left: 10px; /* space between the bullet and text */
+    padding-left: 10px; /* Space between the bullet and text */
 }
 
 li {
-    padding-left: 10px;  /* space between the bullet and text */
+    padding-left: 10px;  /* Space between the bullet and text */
 }
 
 img {
@@ -50,6 +50,7 @@ img {
     margin: 0; /* Removes external spacing around the image */
     padding: 0; /* Removes internal spacing around the image */
     border-radius: 50px; /* Gives the image rounded corners */
+    position: center; /* Centers image */
     right: 10px; /* Shifts image 10 pixels left from position */
     top: 10px; /* Shifts image 10 pixels downward from position */
 }

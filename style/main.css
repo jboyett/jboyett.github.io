@@ -38,11 +38,11 @@ img {
   position: static;
 }
 .bluetouch img {
-  border: 2px solid #B5D3E7;
-  margin: 0;
-  padding: 0;
-  border-radius: 50px;
-  position: center;
-  right: 10px;
-  top: 10px;
+    border: 2px solid #B5D3E7;
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    position: center;
+    right: 10px;
+    top: 10px;
 }

@@ -50,6 +50,7 @@ img {
     margin: 0;
     padding: 0;
     border-radius: 50px;
+    position: relative;
     right: 10px;
     top: 10px;
 }

@@ -7,7 +7,7 @@ Southern Illinois University
 body {
     width: 725px; /* Fixed width of the page */
     background-color: #FFCCCC;   /* This a light red color */
-    margin: 0px auto; /* Centers the enitre page */
+    margin: 10px auto; /* Centers the entire page */
 }
 
 main {
@@ -21,7 +21,7 @@ aside {
     width: 50%; /* Fixed width of the aside 2nd column */
     height: 500px; /* Fixed height of the aside 2nd column */
     background-color: #CCE5FF; /* This is a light blue color */
-    float: right; /* Fixes aside 2nd column to the left */
+    float: right; /* Fixes aside 2nd column to the right */
 }
 
 h1, h2 {
@@ -46,7 +46,7 @@ img {
 }
 /* class to give the image border */
 .blue_border img {
-    border: 2px solid #RRGGBB; /* Solid blue border */
+    border: 2px solid #B5D3E7; /* Solid light blue border */
     margin: 0; /* Removes external spacing around the image */
     padding: 0; /* Removes internal spacing around the image */
     border-radius: 50px; /* Gives the image rounded corners */

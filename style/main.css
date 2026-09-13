@@ -7,7 +7,7 @@ Southern Illinois University
 body {
     width: 725px; /* Fixed width of the page */
     background-color: #FFCCCC;   /* This a light red color */
-    margin: 10px auto; /* Centers the entire page */
+    margin: 0px auto; /* Centers the entire page */
 }
 
 main {

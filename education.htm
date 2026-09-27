@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Jacob Boyett
+Education Page
+Dev: 9-25-26
+Date Tested: 9-25-26
+Southern Illinois University
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jacob Boyett Education</title>
+        <!-- Link to CSS file-->
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/slicknav.css">
+        <!-- Tracking script-->
+        <script>
+             window.dataLayer = window.dataLayer || [];
+             function gtag(){dataLayer.push(arguments);}
+             gtag('js', new Date());
+
+             gtag('config', 'G-R2N324MKGN');
+        </script>
+        <!-- Load jQuery library-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <!-- Load Slicknav plugin-->
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+        <!-- Meta tags for Searching-->
+        <meta name="description" content="Education"> <meta name="keywords" content="classes, hours, work">
+    </head>
+    <body>
+        <!-- Navigation Menu-->
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+          <ul>
+            <li><a href="index.htm" class="current">Home</a></li> <!-- Link to Home page-->
+            <li><a href="education.htm">Education</a></li> <!-- Link to Education page-->
+            <li><a href="interests.htm">Interests</a></li> <!-- Link to Interests page-->
+            <li><a href="occupation.htm">Occupation</a></li> <!-- Link to Occupation page-->
+            <li><a href="contact.htm" class="lastitem">Contact</a></li> <!-- Link to Contact page-->
+          </ul> 
+        </nav>
+        <!-- Block element #1-->
+        <h1>Jacob Boyett's Education</h1>
+        <!-- Block element #2-->
+        <p>This page is about my education</p>
+        <!-- List of related classes-->
+          <ul>
+            <li>Operating Systems</li>
+            <li>Introduction to Computer Science</li>
+            <li>Discrete Mathematics</li>
+            <li>Data Structures</li>
+            <li>Linux/Unix Programming</li>
+            <li>Cyber-Physical Systems</li>
+          </ul>
+          <div class="blue_border"><img src="images/Computer coding.png" alt="An example of what I'm good at" width="500" height ="300"></div>
+    </body>
+
+</html>

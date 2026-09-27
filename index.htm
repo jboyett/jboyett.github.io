@@ -9,8 +9,18 @@ Southern Illinois University
     <head>
         <meta charset="utf-8">
         <title>Jacob Boyett Portfolio</title>
-        <!-- Link to CSS file-->
+        <!-- Link to CSS files-->
         <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/slicknav.css"> 
+        <!-- Load jQuery library-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <!-- Load Slicknav plugin-->
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
         <!-- Meta tags for Searching-->
         <meta name="description" content="Personal Portfolio resume Jacob Boyett"> <meta name="keywords" content="Personal Portfolio, resume, Jacob Boyett">
     </head>
@@ -44,4 +54,4 @@ Southern Illinois University
         <div class="blue_border"><img src="images/Computer coding.png" alt="An example of what I'm good at" width="500" height ="300"></div>
     </body>
 
-</html>
+</html>/html>

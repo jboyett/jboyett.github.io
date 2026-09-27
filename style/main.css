@@ -3,9 +3,87 @@ CSS page
 Dev: 9-8-26
 Date Tested: 9-8-26
 Southern Illinois University
+media queries and nav styling from Jeff Miller github
 */
+
+/* tablet portrait layout 2042px wide or smaller */
+@media only screen and (max-width: 2024px) { 
+    #mobile_menu { 
+        display: none; 
+    }    
+}
+/* tablet portrait layout 959px wide or smaller */
+@media only screen and (max-width: 959px) { 
+    #mobile_menu { 
+        display: none; 
+    } 
+}
+ 
+/* mobile landscape layout 767px wide or smaller */ 
+@media only screen and (max-width: 767px) { 
+    #mobile_menu { 
+        display: block; 
+    }
+    #nav_menu { 
+        display: none; 
+    }
+
+    main, aside {
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+
+    header h2 { 
+        font-size: 1.375em; /* 22 ÷ 16 */ 
+    }
+
+    header h3 { 
+        font-size: .8125em; /* 13 ÷ 16 */
+    }
+
+    p { 
+        font-size: .875em; /* 14 ÷ 16 */
+    }             
+    article h1, main h2, aside h2 { 
+        font-size: 1em; /* base font size */
+    }              
+    aside li { 
+        font-size: .875em; /* 14 ÷ 16 */
+    }     
+    
+}
+
+/* mobile portrait layout 479px wide or smaller */
+@media only screen and (max-width: 479px) { 
+    #mobile_menu { 
+        display: block; 
+    }
+    #nav_menu { 
+        display: none; 
+    }
+    header h2 { 
+        font-size: 1.375em; 
+    }    
+    header h3 { 
+        font-size: .8125em; 
+    }    
+    p { 
+        font-size: .875em; 
+    }             
+    article h1, main h2, aside h2 { 
+        font-size: 1em; 
+    }              
+    aside li { 
+        font-size: .875em; 
+    }      
+  
+}
+
+/* Styles for the elements */
 body {
-    width: 725px; /* Fixed width of the page */
+    max-width: 725px; /* Fixed max width of the page */
+    width: 100%;
     background-color: #FFCCCC;   /* This a light red color */
     margin: 0px auto; /* Centers the entire page */
 }
@@ -39,6 +117,25 @@ ul {
 
 li {
     padding-left: 10px;  /* Space between the bullet and text */
+}
+
+/* Navigation menu style */ 
+#nav_menu ul {
+     list-style-type: none; 
+     padding: 1em 0;
+     font-size: 1.5em;
+     text-align: left;
+} 
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; 
+} 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #7254df; 
+}
+#nav_menu ul li a.current { 
+    text-decoration: none; 
 }
 
 img {
